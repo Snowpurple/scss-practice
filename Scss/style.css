@@ -1,0 +1,41 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+main section {
+  height: 100%;
+  flex-grow: 1;
+}
+main section:hover {
+  flex-grow: 3;
+  transition: all 0.5s cubic-bezier(0, 0, 0.2, 1);
+}
+main section:nth-child(1) {
+  background-image: url(./image1.jpg);
+}
+main section:nth-child(2) {
+  background-image: url(./image2.jpg);
+}
+main section:nth-child(3) {
+  background-image: url(./image3.jpg);
+}
+main section:nth-child(4) {
+  background-image: url(./image4.jpg);
+}
+main section:nth-child(5) {
+  background-image: url(./image5.jpg);
+}/*# sourceMappingURL=style.css.map */
